@@ -1,0 +1,24 @@
+header{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #f8f0e3;
+
+}
+.nav{
+    list-style: none;
+    display: flex;
+    margin: 12px -31px 0px 109px;;
+}
+li{
+    margin: 20px 10px;
+}
+.btn{
+    margin-left: 20%;
+}
+.img{
+    margin-left: 2%;
+}
+.android{
+ width: 40%;
+ margin: 20px 3px 0px 0px;
+}
