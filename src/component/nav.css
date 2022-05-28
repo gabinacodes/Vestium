@@ -1,7 +1,8 @@
 
 .sidebar{
     width: 12%;
-    background-color: rgb(61, 59, 59);
+    background-color: #363740;
+
     padding: 3% 3%;
    display: block;
 }
@@ -12,7 +13,7 @@
 }
 .line{
     margin: 6% 0 90% 0;
-    border: 0.2px solid rgba(173, 172, 172, 0.205);
+    border: 0.2px solid #DFE0EB;
 }
 .logo{
     display: flex;
