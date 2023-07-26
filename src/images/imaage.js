@@ -16,8 +16,8 @@ import illustration from './illustration-intro.svg'
 import logoWhite from './logo-white.svg'
 import logo from './logo.svg'
 
-const image =[
+const Image ={
     ali,anisha,richard,shanai,bgDesktop,bgMobile,bgTab,close,facebook,hamburger,instagram,pinterest,twitter,youtube,illustration,logoWhite,logo
-]
+}
 
-export default image
+export default Image
