@@ -13,8 +13,8 @@ import pinterest from './icon-pinterest.svg'
 import twitter from './icon-twitter.svg'
 import youtube from './icon-youtube.svg'
 import illustration from './illustration-intro.svg'
-import logoWhite from './logo-white.png'
-import logo from './logo.png'
+import logoWhite from './logo-white.svg'
+import logo from './logo.svg'
 
 const image =[
     ali,anisha,richard,shanai,bgDesktop,bgMobile,bgTab,close,facebook,hamburger,instagram,pinterest,twitter,youtube,illustration,logoWhite,logo
