@@ -4,14 +4,27 @@ function Home() {
   return (
     <div>
       <div className='flex   flex-wrap m-3 p-3'>
-        <div className=' mx-2 p-3 bg-babyBlue rounded-lg' >
+        <div className=' m-2 p-3 bg-babyBlue rounded-lg ' >
           <img alt='img' src={Image.ali} />
-          <p>0</p>
-          <p className='text-base'>Accepted bookings card</p>
+          <p className='text-lg font-medium'>0</p>
+          <p className='text-lg w-9 font-medium pt-2'>Accepted Bookings </p>
 
         </div>
-        <div className='w-12 h-20 mx-2 bg-sand rounded-lg' ></div>
-        <div className='w-12 h-20 mx-2 rounded-lg bg-appleRed'></div>
+        <div className='m-2 p-3 bg-sand rounded-lg' >
+          <img alt='img' src={Image.ali} />
+          <p className='text-lg font-medium'>0</p>
+          <p className='text-lg w-9 font-medium pt-2'>Pending Bookings</p>
+        </div>
+        <div className='m-2 p-3 bg-teal rounded-lg' >
+          <img alt='img' src={Image.ali} />
+          <p className='text-lg font-medium'>0</p>
+          <p className='text-lg w-9 font-medium pt-2'>Rejected Bookings</p>
+        </div>
+        <div className=' p-3 m-2 rounded-lg bg-appleRed'>   
+          <img alt='img' src={Image.ali} />
+          <p className='text-lg font-medium'>0</p>
+          <p className='text-lg w-9 font-medium pt-2'>Completed Bookings </p>
+       </div>
       </div>
     </div>
   )
