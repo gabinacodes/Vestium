@@ -1,8 +1,8 @@
-import "tailwindcss/tailwind.css"
+import Home from './page/Home'
 function App() {
   return (
     <div className="App"> 
-       helo 
+       <Home/>
     </div>
   )
 }
